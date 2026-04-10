@@ -13,4 +13,4 @@ The purpose of this program is to provide a playable single-player Tetris game w
 ## 4. What would be some sample input/output?
 Sample input includes pressing the arrow keys to move or rotate the falling pieces and pressing `R` to restart the game. The output is a graphical Tetris window that shows the board, next piece preview, score, leaderboard, and a game-over popup when the board fills up.
 
-![Tetris Gameplay Screenshot](screenshot1.png)
+![Tetris Gameplay Screenshot](screenshot2.png)
