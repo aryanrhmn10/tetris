@@ -14,4 +14,5 @@ The purpose of this program is to provide a playable single-player Tetris game w
 Sample input includes pressing the arrow keys to move or rotate the falling pieces and pressing `R` to restart the game. The output is a graphical Tetris window that shows the board, next piece preview, score, leaderboard, and a game-over popup when the board fills up.
 
 Example Screenshot
+
 ![Tetris Gameplay Screenshot](screenshot2.png)
