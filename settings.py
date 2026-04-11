@@ -1,0 +1,46 @@
+from __future__ import annotations
+
+import pygame
+
+TITLE = "Tetris - Single Player"
+FPS = 60
+FALL_INTERVAL_MS = 350
+FALL_EVENT = pygame.USEREVENT + 1
+
+GRID_ROWS = 20
+GRID_COLS = 10
+CELL_SIZE = 32
+
+LEFT_MARGIN = 36
+BOARD_TOP = 118
+BOARD_WIDTH = GRID_COLS * CELL_SIZE
+BOARD_HEIGHT = GRID_ROWS * CELL_SIZE
+PANEL_X = 432
+PANEL_WIDTH = 296
+SCREEN_WIDTH = 760
+SCREEN_HEIGHT = 808
+
+# Green cyberpunk-style palette
+BACKGROUND = (7, 20, 16)
+PANEL_BG = (12, 36, 28)
+BOARD_BG = (10, 28, 22)
+PREVIEW_FILL = (15, 44, 34)
+GLOW = (86, 224, 168)
+BORDER = (120, 255, 190)
+TEXT = (234, 255, 246)
+SMALL_TEXT = (168, 230, 202)
+BOARD_OUTLINE = (56, 168, 124)
+GRID_EMPTY = (23, 52, 41)
+
+COLORS = {
+    0: GRID_EMPTY,
+    1: (255, 92, 141),
+    2: (0, 240, 255),
+    3: (255, 190, 92),
+    4: (240, 255, 110),
+    5: (110, 255, 168),
+    6: (191, 110, 255),
+    7: (110, 124, 255),
+}
+
+PREVIEW_BOX = (150, 132, PREVIEW_FILL)
